@@ -1,0 +1,36 @@
+{
+    "packages": [
+        {
+            "name": "ppm",
+            "description": "PPM - Python Package Manager",
+            "keywords": [
+                "ppm",
+                "python",
+                "package",
+                "manager"
+            ],
+            "version": "0.0.1",
+            "authors": [
+                {
+                    "name": "Md. Almas Ali",
+                    "email": "test@gmail.com",
+                    "url": "https://github.com/Almas-Ali/ppm"
+                }
+            ],
+            "licenseUrl": "https//github.com/Almas-Ali/ppm/blob/master/LICENSE",
+            "projectUrl": "https://github.com/Almas-Ali/ppm",
+            "iconUrl": "",
+            "tags": "ppm python package manager",
+            "releaseNotes": "Initial release"
+        }
+    ],
+    "requirements": {
+        "rong": "0.0.2",
+        "typer": "0.7.0",
+        "click": "8.1.3"
+    },
+    "scripts": {
+        "requirements": "ppm install requirements",
+        "install": "pip install -r requirements.txt"
+    }
+}
